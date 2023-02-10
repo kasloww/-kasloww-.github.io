@@ -1,7 +1,22 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-</style>
 
 body {
     font-family: 'PT Serif', serif;
+    background-color:darkkhaki;
 }
+
+nav {
+    background-color: khaki;
+}
+
+nav > a {
+    color:brown;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block
+}
+
+nav > a:hover {
+    background-color:peru;
+}
+
