@@ -7,6 +7,7 @@ body {
 
 nav {
     background-color: khaki;
+    text-align: center;
 }
 
 nav > a {
@@ -20,11 +21,4 @@ nav > a:hover {
     background-color:peru;
 }
 
-#logo {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-
-#topmiddle {
-    text-align: center;
-}
+.center { text-align: center;}
