@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Contact Me</title>
     <nav>
     <a href="index.html">Home</a> 
     <a href="About Me.html">About Me</a>
@@ -16,10 +16,40 @@
 </head>
 <body>
 <h1>How to Reach to Me:</h1>
+
+<form
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+ method="post"
+>
 <ul>
     <li>Email: kasimdavidson810@gmail.com</li>
     <li>Mobile: 718-926-0...</li>
     <li>Cashapp: $kasloww (if you feeling generous 😌)</li>
 </ul>
+<p class="center">
+    Or this way:
+</p class="center">
+<form>
+    <label>First Name:</label>
+    <br>
+    <input placeholder="Enter here" name="firstName">
+    <br>
+    <label>Last Name:</label>
+    <br>
+    <input placeholder="Enter here" name="lastName">
+    <br>
+    <label>Additonal Notes/Feedback:</label>
+    <br>
+    <textarea name="notes"></textarea>
+    <br>
+    <input type="checkbox" name="terms">
+    <label>I agree to your terms and conditions.</label>
+    <br>
+    <p>
+        
+    </p>
+    <input type="Submit">
+    <input name="send-to" value="kdavidson@brooklynsteamcenter.org" hidden>
+</form>
 </body>
 </html>
