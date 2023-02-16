@@ -2,24 +2,35 @@
 
 body {
     font-family: 'PT Serif', serif;
-    background-color:darkkhaki;
+    background-color:antiquewhite;
 }
 
 nav {
-    background-color: khaki;
+    background-color:aliceblue;
     text-align: center;
 }
 
 nav > a {
-    color:brown;
+    color:darkslateblue;
     text-decoration: none;
     padding: 20px 15px;
     display: inline-block
 }
 
 nav > a:hover {
-    background-color:peru;
+    background-color:beige;
 }
 
 .center { text-align: center;}
 
+.links {text-decoration: none;}
+
+input, textarea {
+    background-color:azure;
+    border-radius: 9px;
+    padding: 8px 10px 10px 12px;
+}
+
+input:focus, textarea:focus{
+    background-color:cornsilk;
+}
