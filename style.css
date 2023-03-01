@@ -6,7 +6,7 @@ body {
     background-color: #ffffff;
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     background-repeat: no-repeat;
-    background-size: 100% 136%;
+    background-size: 1000% 150%;
 }
 
 nav {
@@ -44,4 +44,8 @@ input:focus, textarea:focus{
 
 .float-right {
     float:right
+}
+
+@media screen and (max-width: 403px){
+    /* for mobile-phones: */
 }
