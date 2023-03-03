@@ -30,7 +30,10 @@ nav > a:hover {
         color: aqua;
 }
 
-
+.content {
+    max-width: 10000px;
+    margin: auto;
+}
 
 input, textarea {
     background-color:azure;
@@ -49,3 +52,10 @@ input:focus, textarea:focus{
 @media screen and (max-width: 403px){
     /* for mobile-phones: */
 }
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
