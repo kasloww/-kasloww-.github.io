@@ -6,15 +6,15 @@ body {
     background-color: #ffffff;
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     background-repeat: no-repeat;
-    background-size: 1000% 150%;
+    background-size: 1000% 200%;
 }
 
 nav {
-    text-align: center;
+    text-align: center;   
 }
 
 nav > a {
-    color:cornflowerblue;
+    color:darkviolet;
     text-decoration: none;
     padding: 20px 15px;
     display: inline-block
@@ -22,17 +22,14 @@ nav > a {
 
 nav > a:hover {
     background-color:indigo;
+    padding: 25;
+    border-radius: 5px;
 }
 
 .center { text-align: center;}
 
 .links {text-decoration: none;
         color: aqua;
-}
-
-.content {
-    max-width: 10000px;
-    margin: auto;
 }
 
 input, textarea {
@@ -49,7 +46,7 @@ input:focus, textarea:focus{
     float:right
 }
 
-@media screen and (max-width: 403px){
+@media only screen and (max-width: 400px){
     /* for mobile-phones: */
 }
 
@@ -57,5 +54,10 @@ div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-  }
+    text-decoration: underline;
+}
 
+.content {
+    max-width: 700px;
+    margin: auto;
+}
