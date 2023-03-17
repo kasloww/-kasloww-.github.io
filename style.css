@@ -13,8 +13,12 @@ nav {
     text-align: center;   
 }
 
+.inter {
+    text-decoration: underline;
+}
+
 nav > a {
-    color:darkviolet;
+    color:mediumslateblue;
     text-decoration: none;
     padding: 20px 15px;
     display: inline-block
@@ -29,11 +33,10 @@ nav > a:hover {
 .center { text-align: center;}
 
 .links {text-decoration: none;
-        color: aqua;
+        color:rgb(159, 127, 255);
 }
 
 input, textarea {
-    background-color:azure;
     border-radius: 9px;
     padding: 8px 10px 10px 12px;
 }
@@ -50,14 +53,11 @@ input:focus, textarea:focus{
     /* for mobile-phones: */
 }
 
-div.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    text-decoration: underline;
-}
-
 .content {
     max-width: 700px;
     margin: auto;
+}
+
+.foot {
+    font-family: 'PT Serif';
 }
